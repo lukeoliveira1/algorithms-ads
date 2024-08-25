@@ -1,8 +1,13 @@
 # Grafos
 
+# A -> B grafos direcionados
+# A - B grafos não direcionados (é um ciclo A -> B -> A)
+
 # Pesquisa em largura:
 # Existe algum caminho de A até B?
-# Qual o caminho mínimo de A até B?
+# Qual o caminho mínimo (menor numero de segmentos) de A até B?
+
+# Para grafos não ponderados, a pesquisa em largura é a melhor opção.
 
 from collections import deque
 
