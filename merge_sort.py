@@ -1,6 +1,7 @@
 import random
 import time
 
+# O (n)
 # divide and conquer is merge sort!
 # merge-sort splits the array into smaller arrays, sorts them separately and merges them later
 
